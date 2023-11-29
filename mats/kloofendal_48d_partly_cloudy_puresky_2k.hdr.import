@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d15pp4bfo0vul"
-path.s3tc="res://.godot/imported/Planks017_2K-JPG_Color.jpg-ce0b2f9c62c1d67d0866af840ec33aa2.s3tc.ctex"
+uid="uid://ce4ftgw50eqiu"
+path.bptc="res://.godot/imported/kloofendal_48d_partly_cloudy_puresky_2k.hdr-0adaf75cf0d4290d53dfef7f724cb36a.bptc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Planks017_2K-JPG_Color.jpg"
-dest_files=["res://.godot/imported/Planks017_2K-JPG_Color.jpg-ce0b2f9c62c1d67d0866af840ec33aa2.s3tc.ctex"]
+source_file="res://mats/kloofendal_48d_partly_cloudy_puresky_2k.hdr"
+dest_files=["res://.godot/imported/kloofendal_48d_partly_cloudy_puresky_2k.hdr-0adaf75cf0d4290d53dfef7f724cb36a.bptc.ctex"]
 
 [params]
 

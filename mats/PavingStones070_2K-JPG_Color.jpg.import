@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ce4ftgw50eqiu"
-path.bptc="res://.godot/imported/kloofendal_48d_partly_cloudy_puresky_2k.hdr-bd8dc36a7e782161490b4a086a0f7cf6.bptc.ctex"
+uid="uid://efax1r0qdqtt"
+path.s3tc="res://.godot/imported/PavingStones070_2K-JPG_Color.jpg-1761e55104163f9f0d6acb8cfd7d0e1c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://kloofendal_48d_partly_cloudy_puresky_2k.hdr"
-dest_files=["res://.godot/imported/kloofendal_48d_partly_cloudy_puresky_2k.hdr-bd8dc36a7e782161490b4a086a0f7cf6.bptc.ctex"]
+source_file="res://mats/PavingStones070_2K-JPG_Color.jpg"
+dest_files=["res://.godot/imported/PavingStones070_2K-JPG_Color.jpg-1761e55104163f9f0d6acb8cfd7d0e1c.s3tc.ctex"]
 
 [params]
 

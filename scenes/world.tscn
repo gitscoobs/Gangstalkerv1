@@ -1,11 +1,11 @@
 [gd_scene load_steps=10 format=3 uid="uid://dj7kfgs6gdmcr"]
 
-[ext_resource type="Texture2D" uid="uid://efax1r0qdqtt" path="res://PavingStones070_2K-JPG_Color.jpg" id="1_5yboq"]
-[ext_resource type="Script" path="res://player.gd" id="2_cht1q"]
-[ext_resource type="Texture2D" uid="uid://d15pp4bfo0vul" path="res://Planks017_2K-JPG_Color.jpg" id="3_3ry44"]
+[ext_resource type="Texture2D" uid="uid://efax1r0qdqtt" path="res://mats/PavingStones070_2K-JPG_Color.jpg" id="1_dq5ee"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="2_clnky"]
+[ext_resource type="Texture2D" uid="uid://d15pp4bfo0vul" path="res://mats/Planks017_2K-JPG_Color.jpg" id="3_f882j"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_654xa"]
-albedo_texture = ExtResource("1_5yboq")
+albedo_texture = ExtResource("1_dq5ee")
 uv1_triplanar = true
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xnlhj"]
@@ -15,7 +15,7 @@ radius = 0.361788
 height = 1.00382
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4jcd0"]
-albedo_texture = ExtResource("3_3ry44")
+albedo_texture = ExtResource("3_f882j")
 
 [sub_resource type="BoxMesh" id="BoxMesh_3lqoe"]
 material = SubResource("StandardMaterial3D_4jcd0")
@@ -49,7 +49,7 @@ shadow_enabled = true
 
 [node name="player" type="CharacterBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.96046e-08, 0)
-script = ExtResource("2_cht1q")
+script = ExtResource("2_clnky")
 
 [node name="standing_collision_shape" type="CollisionShape3D" parent="player"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
@@ -60,13 +60,17 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.478067, 0)
 shape = SubResource("CapsuleShape3D_pxw4x")
 disabled = true
 
-[node name="head" type="Node3D" parent="player"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.43157, 0)
-
-[node name="Camera3D" type="Camera3D" parent="player/head"]
-
 [node name="RayCast3D" type="RayCast3D" parent="player"]
 target_position = Vector3(0, 2, 0)
+
+[node name="neck" type="Node3D" parent="player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0)
+
+[node name="head" type="Node3D" parent="player/neck"]
+
+[node name="eyes" type="Node3D" parent="player/neck/head"]
+
+[node name="Camera3D" type="Camera3D" parent="player/neck/head/eyes"]
 
 [node name="Node3D" type="Node3D" parent="."]
 

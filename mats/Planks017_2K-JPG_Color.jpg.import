@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://efax1r0qdqtt"
-path.s3tc="res://.godot/imported/PavingStones070_2K-JPG_Color.jpg-7aaf3c28e67df16a11e10d55d9b9c025.s3tc.ctex"
+uid="uid://d15pp4bfo0vul"
+path.s3tc="res://.godot/imported/Planks017_2K-JPG_Color.jpg-375cbf082903d7d69af40c3240f65189.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PavingStones070_2K-JPG_Color.jpg"
-dest_files=["res://.godot/imported/PavingStones070_2K-JPG_Color.jpg-7aaf3c28e67df16a11e10d55d9b9c025.s3tc.ctex"]
+source_file="res://mats/Planks017_2K-JPG_Color.jpg"
+dest_files=["res://.godot/imported/Planks017_2K-JPG_Color.jpg-375cbf082903d7d69af40c3240f65189.s3tc.ctex"]
 
 [params]
 
